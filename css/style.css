@@ -1,13 +1,18 @@
 body{
 	text-align: center;
+	background-color: #FBEDF1;
 }
 ul{
 	list-style: none !important;
 	list-style-image: none !important;
 }
 .wraper{
+	border-right: solid 10px #F7DCE4;
+	border-left: solid 10px #F7DCE4;
 	display: inline-block;
 	text-align: left;
+	background-color: white;
+	padding: 0 20px;
 }
 
 h1{
