@@ -33,19 +33,53 @@
 					<li type='s' class="gen-item">Приветствие</li>
 				</ul>
 				<ul id='sortable' class="gen-list">
-					<li type='t' class="gen-item" use='textblock' data-repeatable>Текстовый блок<span class="remove"></span></li>
-					<li type='p' class="gen-item" use='picture' data-repeatable>Картинка<span class="remove"></span></li>
+					<li type='t' class="gen-item" use='textblock' data-repeatable chain="text">
+						<a href="#">Текстовый блок</a>
+						<span class="remove"></span>
+					</li>
+
+					<li type='p' class="gen-item" use='picture' data-repeatable chain='urlimg'>
+						<a href="#">Картинка</a>
+						<span class="remove"></span>
+					</li>
+
 					<li type='r' class="gen-item" use='ribbon[actions]' data-quantitable plural="0">Лента: Акция<span class="remove"></span></li>
-					<li type='t' class="gen-item" use='textblock' data-repeatable>Текстовый блок<span class="remove"></span></li>
-					<li type='p' class="gen-item" use='picture' data-repeatable>Картинка<span class="remove"></span></li>
+					
+					<li type='t' class="gen-item" use='textblock' data-repeatable chain="text">
+						<a href="#">Текстовый блок</a>
+						<span class="remove"></span>
+					</li>
+					
+					<li type='p' class="gen-item" use='picture' data-repeatable chain="urlimg">
+						<a href="#">Картинка</a>
+						<span class="remove"></span>
+					</li>
+
 					<li type='r' class="gen-item" use='ribbon[news] '>Лента: Новинки<span class="remove"></span></li>
-					<li type='t' class="gen-item" use='textblock' data-repeatable>Текстовый блок<span class="remove"></span></li>
-					<li type='g' class="gen-item" use='table' data-repeatable>Таблица товаров<span class="remove"></span></li>				
+					
+					<li type='g' class="gen-item" use='table' data-repeatable chain='table'>
+						<a href="#">Таблица товаров</a>
+						<span class="remove"></span>
+					</li>				
+					
 					<li type='r' class="gen-item" use='ribbon[premiers]' data-quantitable plural="0">Лента: Премьера<span class="remove"></span></li>
-					<li type='t' class="gen-item" use='textblock'data-repeatable>Текстовый блок<span class="remove"></span></li>
-					<li type='p' class="gen-item" use='picture' data-repeatable>Картинка<span class="remove"></span></li>
+					
+					<li type='t' class="gen-item" use='textblock' data-repeatable chain="text">
+						<a href="#">Текстовый блок</a>
+						<span class="remove"></span>
+					</li>
+					
+					<li type='p' class="gen-item" use='picture' data-repeatable chain="urlimg">
+						<a href="#">Картинка</a>
+						<span class="remove"></span>
+					</li>
+
 					<li type='r' class="gen-item" use='ribbon[bestsellers]'>Лента: Бестселлеры<span class="remove"></span></li>
-					<li type='g' class="gen-item" use='table' data-repeatable>Таблица товаров<span class="remove"></span></li>				
+
+					<li type='g' class="gen-item" use='table' data-repeatable chain='table'>
+						<a href="#">Таблица товаров</a>
+						<span class="remove"></span>
+					</li>				
 				</ul>
 				<ul class="gen-list">
 					<li type='s' class="gen-item">Социальные сети</li>
@@ -71,6 +105,7 @@
 						</div>
 					</form>
 				</div>
+				<h3>Расширенные настройки</h3>
 			</section>
 
 			<div class="center">
@@ -279,65 +314,69 @@
 
 <script type="text/template" id='textblock'>
 <!-- Текстовый блок -->
-	<table border="0" cellpadding="0" cellspacing="0" style="width: 100%; padding-left: 5px; padding-right: 5px; border-spacing: 0px; margin-bottom: 5px;">
+<table border="0" cellpadding="0" cellspacing="0" style="width: 100%; padding-left: 5px; padding-right: 5px; border-spacing: 0px; margin-bottom: 5px;">
 	<tbody>
-	<tr>
-	<td align="center">
-	<table style="border-right-width: 1px; border-left-width: 1px; border-right-color: #eadbdf; border-left-color: #eadbdf; border-style: none solid; max-width: 696px; width: 100%; background: #ffffff;" cellpadding="0" cellspacing="0">
-	<tbody>
-	<tr>
-	<td style="padding-top: 10px; padding-left: 20px; padding-right: 20px;"><hr style="border-style: solid; border-width: 1px; border-color: #F5DCE2; border-top: 0px;" /></td>
-	</tr>
-	<tr>
-	<td align="left" style="padding-left: 20px; padding-right: 20px; max-width: 696px;">
-	<p style="line-height: 20px; margin: 0px; margin-bottom: 10px; font-size: 16px; font-family: Helvetica; color: #41484a;">Некоторый текст</p>
-	</td>
-	</tr>
-	<tr>
-	<td style="padding-bottom: 10px; padding-left: 20px; padding-right: 20px;"><hr style="border-style: solid; border-width: 1px; border-color: #F5DCE2; border-top: 0px;" /></td>
-	</tr>
-	<tr>
-	<td height="2">
-	<table border="0" cellpadding="0" cellspacing="0" style="width: 100%;">
-	<tbody>
-	<tr>
-	<td height="2" backgound="http://pudra.ru/skins/pudra/mail/email_letter/img/textures/shadow2x2.png" style="background-image: url('http://pudra.ru/skins/pudra/mail/email_letter/img/textures/shadow2x2.png');"></td>
+		<tr>
+			<td align="center">
+			<table style="border-right-width: 1px; border-left-width: 1px; border-right-color: #eadbdf; border-left-color: #eadbdf; border-style: none solid; max-width: 696px; width: 100%; background: #ffffff;" cellpadding="0" cellspacing="0">
+				<tbody>
+					<tr>
+						<td style="padding-top: 10px; padding-left: 20px; padding-right: 20px;"><hr style="border-style: solid; border-width: 1px; border-color: #F5DCE2; border-top: 0px;" /></td>
+					</tr>
+					<tr>
+						<td align="left" style="padding-left: 20px; padding-right: 20px; max-width: 696px;">
+							<p style="line-height: 20px; margin: 0px; margin-bottom: 10px; font-size: 16px; font-family: Helvetica; color: #41484a;">{{text}}</p>
+						</td>
+					</tr>
+					<tr>
+						<td style="padding-bottom: 10px; padding-left: 20px; padding-right: 20px;"><hr style="border-style: solid; border-width: 1px; border-color: #F5DCE2; border-top: 0px;" /></td>
+					</tr>
+					<tr>
+						<td height="2">
+							<table border="0" cellpadding="0" cellspacing="0" style="width: 100%;">
+								<tbody>
+									<tr>
+										<td height="2" backgound="http://pudra.ru/skins/pudra/mail/email_letter/img/textures/shadow2x2.png" style="background-image: url('http://pudra.ru/skins/pudra/mail/email_letter/img/textures/shadow2x2.png');"></td>
+									</tr>
+								</tbody>
+							</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</td>
 	</tr>
 	</tbody>
-	</table>
-	</td>
-	</tr>
-	</tbody>
-	</table>
-	</td>
-	</tr>
-	</tbody>
-	</table>
+</table>
 </script>
 
 <script type="text/template" id='picture'> 
 <!-- Картинка -->
 <table border="0" cellpadding="0" cellspacing="0" style="width: 100%;">
-<tbody>
-<tr>
-<td style="padding: 6px;" align="center">
-<table border="0" cellpadding="0" cellspacing="0" style="max-width: 696px; width: 100%; background: #ffffff;" background-color="#ffffff">
-<tbody>
-<tr>
-<td align="center" style="padding: 5px;"><a href="http://pudra.ru" target="_blank"><img src="http://placehold.it/688x288.png" style="display: inline-block; max-width: 100%; margin: 0px;"/></a></td>
-</tr>
-</tbody>
-</table>
-<table border="0" cellpadding="0" cellspacing="0" style="width: 100%; max-width: 696px; height: 2px;">
-<tbody>
-<tr>
-<td height="2" backgound="http://pudra.ru/skins/pudra/mail/email_letter/img/textures/shadow2x2.png" style="background-image: url('http://pudra.ru/skins/pudra/mail/email_letter/img/textures/shadow2x2.png');"></td>
-</tr>
-</tbody>
-</table>
-</td>
-</tr>
-</tbody>
+	<tbody>
+		<tr>
+			<td style="padding: 6px;" align="center">
+				<table border="0" cellpadding="0" cellspacing="0" style="max-width: 696px; width: 100%; background: #ffffff;" background-color="#ffffff">
+					<tbody>
+						<tr>
+							<td align="center" style="padding: 5px;">
+								<a href="{{a_url}}" target="_blank">
+									<img src="{{img_url}}" alt="{{alt}}" style="display: inline-block; max-width: 100%; margin: 0px;"/>
+								</a>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+				<table border="0" cellpadding="0" cellspacing="0" style="width: 100%; max-width: 696px; height: 2px;">
+					<tbody>
+						<tr>
+						<td height="2" backgound="http://pudra.ru/skins/pudra/mail/email_letter/img/textures/shadow2x2.png" style="background-image: url('http://pudra.ru/skins/pudra/mail/email_letter/img/textures/shadow2x2.png');"></td>
+						</tr>
+					</tbody>
+				</table>
+			</td>
+		</tr>
+	</tbody>
 </table>
 <div style="width: 100%; min-height: 40px; text-align: center; margin-bottom: 20px;"><a href="http://pudra.ru" target="_blank"> <img vspace="0" hspace="0" src="http://pudra.ru/skins/pudra/mail/email_letter/img/common/looknow.png" style="display: inline-block;" /> </a></div>
 </script>
@@ -356,11 +395,14 @@
 								<table border="0" cellpadding="0" cellspacing="0" style="color: #000000; width: 100%; height: 370px;">
 									<tbody>
 										<tr>
-										<td align="center" style="padding-bottom: 10px; padding-top:5px"><a href="http://pudra.ru" target="_blank"><img src="http://placehold.it/210x210.png" width="210" height="210" style="margin: 0px;" /></a>
-											<div style="color: #e497ab; font-size: 12px; text-transform: uppercase; margin-bottom: 8px; margin-top:2px">BRAND</div>
-											<div style="margin-bottom: 5px; font-size: 20px; color: #000000;">Name of product</div>
-											<div style="font-size: 12px; text-transform: uppercase; letter-spacing: 1px; color: #958e8f; margin-bottom: 10px;">CATEGORY</div>
-											<div style="margin-bottom: 10px; font-weight: bold; font-size: 14px; color: #000000;">350 руб.</div>
+										<td align="center" style="padding-bottom: 10px; padding-top:5px">
+											<a href="{{prod1_img_link}}" target="_blank">
+												<img src="{{prod1_img_src}}" width="210" height="210" style="margin: 0px;" alt="{{prod1_img_alt}}" />
+											</a>
+											<div style="color: #e497ab; font-size: 12px; text-transform: uppercase; margin-bottom: 8px; margin-top:2px">{{prod1_brand}}</div>
+											<div style="margin-bottom: 5px; font-size: 20px; color: #000000;">{{prod1_name}}</div>
+											<div style="font-size: 12px; text-transform: uppercase; letter-spacing: 1px; color: #958e8f; margin-bottom: 10px;">{{prod1_category}}</div>
+											<div style="margin-bottom: 10px; font-weight: bold; font-size: 14px; color: #000000;">{{prod1_price}}.</div>
 											<a href="http://pudra.ru" target="_blank"> <img class="btn" src="http://pudra.ru/skins/pudra/mail/email_letter/img/common/pinkbtn.png" /></a></td>
 										</tr>
 									</tbody>	
@@ -386,11 +428,14 @@
 								<table border="0" cellpadding="0" cellspacing="0" style="color: #000000; width: 100%; height: 370px;">
 									<tbody>
 										<tr>
-										<td align="center" style="padding-bottom: 10px; padding-top:5px"><a href="http://pudra.ru" target="_blank"><img src="http://placehold.it/210x210.png" width="210" height="210" style="margin: 0px;" /></a>
-											<div style="color: #e497ab; font-size: 12px; text-transform: uppercase; margin-bottom: 8px; margin-top:2px">BRAND</div>
-											<div style="margin-bottom: 5px; font-size: 20px; color: #000000;">Name of product</div>
-											<div style="font-size: 12px; text-transform: uppercase; letter-spacing: 1px; color: #958e8f; margin-bottom: 10px;">CATEGORY</div>
-											<div style="margin-bottom: 10px; font-weight: bold; font-size: 14px; color: #000000;">350 руб.</div>
+										<td align="center" style="padding-bottom: 10px; padding-top:5px">
+											<a href="{{prod2_img_link}}" target="_blank">
+												<img src="{{prod2_img_src}}" width="210" height="210" style="margin: 0px;" alt="{{prod2_img_alt}}" />
+											</a>
+											<div style="color: #e497ab; font-size: 12px; text-transform: uppercase; margin-bottom: 8px; margin-top:2px">{{prod2_brand}}</div>
+											<div style="margin-bottom: 5px; font-size: 20px; color: #000000;">{{prod2_name}}</div>
+											<div style="font-size: 12px; text-transform: uppercase; letter-spacing: 1px; color: #958e8f; margin-bottom: 10px;">{{prod2_category}}</div>
+											<div style="margin-bottom: 10px; font-weight: bold; font-size: 14px; color: #000000;">{{prod2_price}}.</div>
 											<a href="http://pudra.ru" target="_blank"> <img class="btn" src="http://pudra.ru/skins/pudra/mail/email_letter/img/common/pinkbtn.png" /></a></td>
 										</tr>
 									</tbody>	
@@ -416,11 +461,14 @@
 								<table border="0" cellpadding="0" cellspacing="0" style="color: #000000; width: 100%; height: 370px;">
 									<tbody>
 										<tr>
-										<td align="center" style="padding-bottom: 10px; padding-top:5px"><a href="http://pudra.ru" target="_blank"><img src="http://placehold.it/210x210.png" width="210" height="210" style="margin: 0px;" /></a>
-											<div style="color: #e497ab; font-size: 12px; text-transform: uppercase; margin-bottom: 8px; margin-top:2px">BRAND</div>
-											<div style="margin-bottom: 5px; font-size: 20px; color: #000000;">Name of product</div>
-											<div style="font-size: 12px; text-transform: uppercase; letter-spacing: 1px; color: #958e8f; margin-bottom: 10px;">CATEGORY</div>
-											<div style="margin-bottom: 10px; font-weight: bold; font-size: 14px; color: #000000;">350 руб.</div>
+										<td align="center" style="padding-bottom: 10px; padding-top:5px">
+											<a href="{{prod3_img_link}}" target="_blank">
+												<img src="{{prod3_img_src}}" width="210" height="210" style="margin: 0px;" alt="{{prod3_img_alt}}" />
+											</a>
+											<div style="color: #e497ab; font-size: 12px; text-transform: uppercase; margin-bottom: 8px; margin-top:2px">{{prod3_brand}}</div>
+											<div style="margin-bottom: 5px; font-size: 20px; color: #000000;">{{prod3_name}}</div>
+											<div style="font-size: 12px; text-transform: uppercase; letter-spacing: 1px; color: #958e8f; margin-bottom: 10px;">{{prod3_category}}</div>
+											<div style="margin-bottom: 10px; font-weight: bold; font-size: 14px; color: #000000;">{{prod3_price}}.</div>
 											<a href="http://pudra.ru" target="_blank"> <img class="btn" src="http://pudra.ru/skins/pudra/mail/email_letter/img/common/pinkbtn.png" /></a></td>
 										</tr>
 									</tbody>	
@@ -443,5 +491,76 @@
 	</tbody>
 </table>
 </script>
+
+<script type="text/template" id='params-text'>
+	<div class='params'>
+		<div>
+			<form>
+				<textarea name='text' class='form-control'></textarea>
+			</form>
+		</div>
+		<div>
+			<a href='#' id='save' class='btn btn-success'>Ок</a> <a href='#' id='cancle' class='btn btn-danger'>Отмена</a>
+		</div>
+	</div>
+</script>
+
+<script type="text/template" id='params-urlimg'>
+	<div class='params'>
+		<div>
+			<form>
+				<input name='a_url' class='form-control' placeholder='Link URL' value="http://pudra.ru">
+				<input name='img_url' class='form-control' placeholder='IMG URL' value="http://placehold.it/688x288.png">
+				<input name='alt' class='form-control' placeholder='Image ALT'>
+			</form>
+		</div>
+		<div>
+			<a href='#' id='save' class='btn btn-success'>Ок</a> <a href='#' id='cancle' class='btn btn-danger'>Отмена</a>
+		</div>
+	</div>
+</script>
+
+<script type="text/template" id='params-table'>
+	<div class='params'>
+		<div>
+			<form>
+				<div class="form-group">
+					<label>Продукт 1</label>
+					<input name='prod1_img_src' class='form-control' placeholder='Image SRC URL' value="http://placehold.it/210x210.png">
+					<input name='prod1_img_link' class='form-control' placeholder='Image A URL' value="http://pudra.ru">
+					<input name='prod1_img_alt' class='form-control' placeholder='Image ALT' value="">
+					<input name='prod1_brand' class='form-control' placeholder='Brand' value="Имя бренда">
+					<input name='prod1_name' class='form-control' placeholder='Name' value="Имя продукта">
+					<input name='prod1_category' class='form-control' placeholder='Category' value="Категория">
+					<input name='prod1_price' class='form-control' placeholder='Price' value="Цена">					
+				</div>
+				<div class="form-group">
+					<label>Продукт 1</label>
+					<input name='prod2_img_src' class='form-control' placeholder='Image SRC URL' value="http://placehold.it/210x210.png">
+					<input name='prod2_img_link' class='form-control' placeholder='Image A URL' value="http://pudra.ru">
+					<input name='prod2_img_alt' class='form-control' placeholder='Image ALT' value="">
+					<input name='prod2_brand' class='form-control' placeholder='Brand' value="Имя бренда">
+					<input name='prod2_name' class='form-control' placeholder='Name' value="Имя продукта">
+					<input name='prod2_category' class='form-control' placeholder='Category' value="Категория">
+					<input name='prod2_price' class='form-control' placeholder='Price' value="Цена">					
+				</div>
+				<div class="form-group">
+					<label>Продукт 1</label>
+					<input name='prod3_img_src' class='form-control' placeholder='Image SRC URL' value="http://placehold.it/210x210.png">
+					<input name='prod3_img_link' class='form-control' placeholder='Image A URL' value="http://pudra.ru">
+					<input name='prod3_img_alt' class='form-control' placeholder='Image ALT' value="">
+					<input name='prod3_brand' class='form-control' placeholder='Brand' value="Имя бренда">
+					<input name='prod3_name' class='form-control' placeholder='Name' value="Имя продукта">
+					<input name='prod3_category' class='form-control' placeholder='Category' value="Категория">
+					<input name='prod3_price' class='form-control' placeholder='Price' value="Цена">					
+				</div>
+			</form>
+		</div>
+		<div>
+			<a href='#' id='save' class='btn btn-success'>Ок</a> <a href='#' id='cancle' class='btn btn-danger'>Отмена</a>
+		</div>
+	</div>
+</script>
+
 </body>
 </html>

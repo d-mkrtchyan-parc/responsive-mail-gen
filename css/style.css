@@ -6,6 +6,11 @@ ul{
 	list-style: none !important;
 	list-style-image: none !important;
 }
+
+li a{
+	color: black;
+}
+
 .wraper{
 	border-right: solid 10px #F7DCE4;
 	border-left: solid 10px #F7DCE4;
@@ -95,6 +100,7 @@ textarea{
 
 .gen-item .remove{
 	position: absolute;
+	top: 5px;
 	right: 10px;
 	width: 20px;
 	height: 20px;
@@ -124,6 +130,7 @@ textarea{
 
 
 .gen-item .ball{
+	top: 5px;
 	position: absolute;
 	right: 40px;
 	width: 20px;
@@ -172,4 +179,12 @@ textarea{
 
 .disabled .ball{
 	display: none;
+}
+
+ul .params{
+	padding: 15px 0;
+}
+
+ul .params input{
+	margin-bottom: 5px;
 }

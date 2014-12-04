@@ -82,10 +82,19 @@ $(function(){
       });
     }
 
+    function uuid(){
+    	return [1,2,3].map(function(){ return (Math.random()*1000)>>0}).join('-');
+    }
+
 	var list = $(".gen-content ul#sortable"),
 		table = $("table.main"),
 		anchor = $("#replacement"),
-		cached = $(".gen-demo").html();
+		cached = $(".gen-demo").html(),
+		conjunctions = {};
+
+
+
+
 
 	list.sortable();
 
@@ -100,6 +109,42 @@ $(function(){
 			$(this).append("<span class='ball quantity'></span>")
 		}
 	});
+
+
+	conjunctions['default'] = {
+		urlimg : {
+			a_url : 'http://pudra.ru',
+			img_url : 'http://placehold.it/688x288.png'
+		},
+		text : {
+			text : 'Некий текст'
+		},
+		table : {
+			prod1_img_link : 'http://pudra.ru',
+			prod1_img_src : 'http://placehold.it/210x210.png',
+			prod1_brand: 'Brand',
+			prod1_name: 'Name',
+			prod1_category: 'Категория', 
+			prod1_price : 'Цена',
+
+			prod2_img_link : 'http://pudra.ru',
+			prod2_img_src : 'http://placehold.it/210x210.png',
+			prod2_brand: 'Brand',
+			prod2_name: 'Name',
+			prod2_category: 'Категория', 
+			prod2_price : 'Цена',
+			
+			prod3_img_link : 'http://pudra.ru',
+			prod3_img_src : 'http://placehold.it/210x210.png',
+			prod3_brand: 'Brand',
+			prod3_name: 'Name',
+			prod3_category: 'Категория', 
+			prod3_price : 'Цена'
+		}
+	}
+
+
+	/* EVENTS */
 
 	$(document).delegate('.gen-item .add', 'click', function(event){
 		event.preventDefault();
@@ -131,6 +176,53 @@ $(function(){
 		}
 
 		replace(item, item.attr('plural'));
+	}).
+	delegate('.gen-item a:not(#save):not(#cancle)', 'click', function(e){
+		e.preventDefault();
+		var $this = $(this),
+			item = $this.parent(),
+			chain = item.attr('chain'),
+			tmpl = $("script#params-" + chain).html(),
+			id = false;
+
+		$('.params').remove();
+
+		if(!$this.hasClass('open')){
+			$(this).after(tmpl);	
+			
+			if(!exist(item.attr('conjuncted'))){
+				$('.params').find('form').attr('for', id = uuid());
+				item.attr('conjuncted', id);
+			}else{
+				id = item.attr('conjuncted');
+				$('.params').find('form').attr('for', id);
+				$('.params form input, .params form select, .params form textarea').each(function(){
+					var val = conjunctions[id] && conjunctions[id][$(this).attr('name')];
+					$(this).val(val || "");
+				});
+			}
+		}else{
+			$('.params').remove();			
+		}
+
+		$this.toggleClass('open');		
+	}).delegate('.gen-item a#save', 'click', function(e){
+		e.preventDefault();
+
+		var data = {},
+			form = $('.params').find('form');
+		
+		form.serializeArray().forEach(function(e){
+			data[e.name] = e.value;
+		});
+
+		conjunctions[form.attr('for')] = data;
+		$('.gen-item a.open').removeClass('open');
+		$('.params').remove();
+	}).
+	delegate('.gen-item a#cancle', 'click', function(e){
+		e.preventDefault();
+		$('.params').remove();
 	});
 
 	$("#width").change(function(){
@@ -164,6 +256,11 @@ $(function(){
 				template = $("script#"+tmpl).html();
 			}
 
+			if(exist($(this).attr("chain"))){
+				data = conjunctions[$(this).attr("conjuncted")] || conjunctions['default'][$(this).attr('chain')];
+				template = interpolate(template, data);
+			}
+
 			anchor.append(template);
 		});
 
@@ -171,17 +268,23 @@ $(function(){
 
 	$("#sanitize").click(function(e){
 		e.preventDefault();
-		anchor.before(anchor.html()).remove();
+		var str = $("#code").val();
 
-		var data = {};
-		$("#vars").serializeArray().forEach(function(e){
-			data[e.name] = e.value
-		})
-		
-		var email = $(".gen-demo").html(),
-			res = interpolate(email, data);
+		if(str.length){
+			str.replace('width="688"', '').replace('height="288"', "").replace("width:999px", "width:100%");
+		}else{
+			anchor.before(anchor.html()).remove();
 
-		$("#code").val(res);
-		$(".gen-demo").html(res);
+			var data = {};
+			$("#vars").serializeArray().forEach(function(e){
+				data[e.name] = e.value
+			})
+			
+			var email = $(".gen-demo").html(),
+				res = interpolate(email, data);
+
+			$("#code").val(res);
+			$(".gen-demo").html(res);
+		}
 	});
 });
