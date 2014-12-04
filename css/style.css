@@ -83,6 +83,22 @@ textarea{
 	position: relative;
 }
 
+/*.gen-list li:hover{	background-color: rgb(82, 127, 184);}
+.gen-list li[type='t']:hover{	background-color:rgb(79, 178, 255);}
+.gen-list li[type='r']:hover{	background-color:rgb(91, 169, 86);}
+.gen-list li[type='g']:hover{	background-color:rgb(250, 164, 11);}*/
+
+.gen-list li.dirty:before{
+	content: "*";
+	color: rgb(246, 131, 168);
+	position: absolute;
+	left: -15px;
+	top: 8px;
+	font-size: 110%;
+}
+
+
+
 .gen-list li[type='s']{
 	background-color: #F7DCE4;
 }
@@ -91,13 +107,18 @@ textarea{
 	background-color: rgb(198, 230, 255);
 }
 
+
 .gen-list li[type='g']{
 	background-color: rgb(230, 197, 138);
 }
+
 .gen-list li[type='r']{
 	background-color:rgb(180, 198, 157);
 }
 
+
+
+.red-ball .remove,
 .gen-item .remove{
 	position: absolute;
 	top: 5px;
@@ -109,14 +130,25 @@ textarea{
 	border-radius: 50%;
 }
 
+.red-ball .remove{
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 18px;
+	height: 18px;
+}
+
+.red-ball .remove.inactive,
 .gen-item .remove.inactive{
 	background: green;
 }
 
+.red-ball .remove.inactive,
 .gen-item .remove.inactive:after{
 	content: "⊕" !important;
 }
 
+.red-ball .remove:after,
 .gen-item .remove:after{
 	color: white;
 	content: "⊗";
@@ -127,7 +159,10 @@ textarea{
 	line-height: 20px;	
 }
 
-
+.red-ball .remove:after{
+	font-size: 16px;
+	top: -1px;
+}
 
 .gen-item .ball{
 	top: 5px;
@@ -187,4 +222,10 @@ ul .params{
 
 ul .params input{
 	margin-bottom: 5px;
+}
+
+.edit-mark{
+	display: inline-block;
+	color: rgb(246, 131, 168);
+	font-size: 110%;
 }

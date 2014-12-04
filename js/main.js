@@ -150,6 +150,7 @@ $(function(){
 		event.preventDefault();
 		var item = $(this).parent();
 		item.after(item.clone());
+		item.next().removeClass('dirty').removeAttr('conjuncted');
 	}).
 	delegate('.gen-item .remove', 'click', function(event){
 		var item = $(this).parent(),
@@ -217,6 +218,7 @@ $(function(){
 		});
 
 		conjunctions[form.attr('for')] = data;
+		$("[conjuncted='"+form.attr('for')+"']").addClass('dirty');
 		$('.gen-item a.open').removeClass('open');
 		$('.params').remove();
 	}).
