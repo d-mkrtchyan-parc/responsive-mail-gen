@@ -144,6 +144,8 @@ $(function(){
 
 	$("#compile").click(function(e){
 		e.preventDefault();
+		$('.gen-demo').html(cached);
+		anchor = $("#replacement");
 		anchor.html('');
 
 		$("#sortable li").each(function(index){
@@ -182,11 +184,4 @@ $(function(){
 		$("#code").val(res);
 		$(".gen-demo").html(res);
 	});
-
-	$('#new').click(function(e){
-		e.preventDefault();
-		$('.gen-demo').html(cached);
-		anchor = $("#replacement");
-	})
-
 });
