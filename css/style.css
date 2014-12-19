@@ -83,10 +83,12 @@ textarea{
 	position: relative;
 }
 
-/*.gen-list li:hover{	background-color: rgb(82, 127, 184);}
-.gen-list li[type='t']:hover{	background-color:rgb(79, 178, 255);}
-.gen-list li[type='r']:hover{	background-color:rgb(91, 169, 86);}
-.gen-list li[type='g']:hover{	background-color:rgb(250, 164, 11);}*/
+hr{
+	border: none;
+	width: 100%;
+	margin: 15px 0;
+	border-bottom: solid 1px #F7DCE4;
+}
 
 .gen-list li.dirty:before{
 	content: "*";

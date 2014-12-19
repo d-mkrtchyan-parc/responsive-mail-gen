@@ -5,6 +5,7 @@
 	<title>Responsive Email Generator</title>
 	<script type="text/javascript" src='js/jquery.min.js'></script>
 	<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+	<script type="text/javascript" src='js/utils.js'></script>
 	<script type="text/javascript" src='js/main.js'></script>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
@@ -15,11 +16,12 @@
 <div class="wraper">
 
 <h1>Конструктор рассылки для Pudra</h1>
+<hr>
 <table class='main'>
 	<thead>
 		<tr>
-		<th>Настройки</th>
-		<th>Демо</th>
+		<th><h2>Настройки</h2></th>
+		<th><h2>Демо</h2></th>
 		</tr>
 	</thead>
 	
@@ -30,14 +32,12 @@
 				<h3 style='margin-top:0px;'>Структура письма</h3>
 				<ul class="gen-list">
 					<li type='s' class="gen-item">Шапка</li>
-					<li type='s' class="gen-item">Приветствие</li>
 				</ul>
 				<ul id='sortable' class="gen-list">
-					<li type='t' class="gen-item" use='textblock' data-repeatable chain="text">
-						<a href="#">Текстовый блок</a>
-						<span class="remove"></span>
+					<li type='s' class="gen-item" use='salutation' chain="text">
+						<a href="#">Приветствие</a>
 					</li>
-
+					
 					<li type='p' class="gen-item" use='picture' data-repeatable chain='urlimg'>
 						<a href="#">Картинка</a>
 						<span class="remove"></span>
@@ -187,7 +187,8 @@
 		</table>
 
 
-		<!-- Интро -->
+		<div id="replacement">
+			<!-- Интро -->
 		<table border="0" cellpadding="0" cellspacing="0" style="width: 100%; padding-left: 5px; padding-right: 5px; border-spacing: 0px; margin-bottom:15px">
 		<tbody>
 		<tr>
@@ -223,8 +224,7 @@
 		</tr>
 		</tbody>
 		</table>
-
-		<div id="replacement"></div>
+		</div>
 
 		<!-- Социалки -->
 		<div style="height: 40px; width: 100%; margin-top: 25px; margin-bottom: 0px; background-image: url('http://pudra.ru/skins/pudra/mail/email_letter/img/common/ribbon/gray_ribbon_02.png'); text-align: center;"><img vspace="0" hspace="0" src="http://pudra.ru/skins/pudra/mail/email_letter/img/common/headings/heading3.png" width="200" height="36" alt="Давай общаться" style="display: inline-block;" /></div>
@@ -384,7 +384,46 @@
 		</tr>
 	</tbody>
 </table>
-<div style="width: 100%; min-height: 40px; text-align: center; margin-bottom: 20px;"><a href="http://pudra.ru" target="_blank"> <img vspace="0" hspace="0" src="http://pudra.ru/skins/pudra/mail/email_letter/img/common/looknow.png" style="display: inline-block;" /> </a></div>
+<div style="width: 100%; min-height: 40px; text-align: center; margin-bottom: 20px;"><a href="{{a_url}}" target="_blank"> <img vspace="0" hspace="0" src="http://pudra.ru/skins/pudra/mail/email_letter/img/common/looknow.png" style="display: inline-block;" /> </a></div>
+</script>
+
+<script type="text/template" id="salutation">
+	<!-- Интро -->
+	<table border="0" cellpadding="0" cellspacing="0" style="width: 100%; padding-left: 5px; padding-right: 5px; border-spacing: 0px; margin-bottom:15px">
+		<tbody>
+			<tr>
+				<td align="center">
+					<table style="border-right-width: 1px; border-left-width: 1px; border-right-color: #eadbdf; border-left-color: #eadbdf; border-style: none solid; max-width: 696px; width: 100%; background: #ffffff;" cellpadding="0" cellspacing="0">
+						<tbody>
+							<tr>
+								<td style="padding-top: 10px; padding-left: 20px; padding-right: 20px;"><hr style="border-style: solid; border-width: 1px; border-color: #F5DCE2; border-top: 0px;" /></td>
+							</tr>
+							<tr>
+								<td align="left" style="padding-left: 20px; padding-right: 20px; max-width: 696px;">
+									<p style="font-size: 22px; color: #ec829d; margin-top: 0px; margin-bottom: 15px;">{{IF `( firstname STRING_EQI '')`}}Привет!{{ELSE}}Привет, [[firstname]]!{{ENDIF}}</p>
+									<p style="line-height: 20px; margin: 0px; margin-bottom: 10px; font-size: 16px; font-family: Helvetica; color: #41484a;">{{text}}</p>
+								</td>
+							</tr>
+							<tr>
+								<td style="padding-bottom: 10px; padding-left: 20px; padding-right: 20px;"><hr style="border-style: solid; border-width: 1px; border-color: #F5DCE2; border-top: 0px;" /></td>
+							</tr>
+							<tr>
+								<td height="2">
+									<table border="0" cellpadding="0" cellspacing="0" style="width: 100%;">
+										<tbody>
+											<tr>
+												<td height="2" backgound="http://pudra.ru/skins/pudra/mail/email_letter/img/textures/shadow2x2.png" style="background-image: url('http://pudra.ru/skins/pudra/mail/email_letter/img/textures/shadow2x2.png');"></td>
+											</tr>
+										</tbody>
+									</table>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</td>
+			</tr>
+		</tbody>
+	</table>
 </script>
 
 
