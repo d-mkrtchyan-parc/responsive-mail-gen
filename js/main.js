@@ -117,7 +117,7 @@ $(function(){
 				$('.params form input, .params form select, .params form textarea').each(function(){
 					var val = conjunctions[id] && conjunctions[id][$(this).attr('name')];
 					$(this).val(val || "");
-					conjunctions[id] = val; /* Check out */
+					// conjunctions[id] = val; /* Check out */
 				});
 			}
 		}else{

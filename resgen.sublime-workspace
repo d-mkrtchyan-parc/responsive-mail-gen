@@ -1,0 +1,1091 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"for",
+				"form"
+			],
+			[
+				"chn",
+				"change"
+			],
+			[
+				"text",
+				"textarea"
+			],
+			[
+				"conjun",
+				"conjunctions"
+			],
+			[
+				"list",
+				"listen"
+			],
+			[
+				"con",
+				"context"
+			],
+			[
+				"s",
+				"sortable"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"remov",
+				"removeClass"
+			],
+			[
+				"o",
+				"observatory"
+			],
+			[
+				"tota",
+				"totals"
+			],
+			[
+				"fiel",
+				"fields"
+			],
+			[
+				"key",
+				"keys"
+			],
+			[
+				"mod",
+				"modules"
+			],
+			[
+				"fi",
+				"filters"
+			],
+			[
+				"name",
+				"namespace"
+			],
+			[
+				"na",
+				"namespace"
+			],
+			[
+				"in",
+				"interceptor"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"fil",
+				"filters"
+			],
+			[
+				"e",
+				"default"
+			],
+			[
+				"pad",
+				"padding-left"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"or",
+				"order-names"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"Ca",
+				"CardNumber"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"border-r",
+				"border-right"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"cou",
+				"coupons"
+			],
+			[
+				"coup",
+				"coupons"
+			],
+			[
+				"th",
+				"thead	Tag"
+			],
+			[
+				"che",
+				"checkShow"
+			],
+			[
+				"tog",
+				"toggleWrapper"
+			],
+			[
+				"disc",
+				"discount"
+			],
+			[
+				"arg",
+				"argv"
+			],
+			[
+				"pr",
+				"profile"
+			],
+			[
+				"inter",
+				"interpolate"
+			],
+			[
+				"sele",
+				"selected"
+			],
+			[
+				"default",
+				"defaultImage"
+			],
+			[
+				"def",
+				"defaultImage"
+			],
+			[
+				"ht",
+				"https"
+			],
+			[
+				"defa",
+				"defaultGellry"
+			],
+			[
+				"img",
+				"imgHttpUrl"
+			],
+			[
+				"images",
+				"imagesArr"
+			],
+			[
+				"prod",
+				"product"
+			],
+			[
+				"seled",
+				"selectedValue"
+			],
+			[
+				"select",
+				"selection"
+			],
+			[
+				"prd",
+				"product"
+			],
+			[
+				"var",
+				"variants"
+			],
+			[
+				"valu",
+				"values"
+			],
+			[
+				"cha",
+				"chain_options"
+			],
+			[
+				"se",
+				"search"
+			],
+			[
+				"req",
+				"request"
+			],
+			[
+				"pro",
+				"proto	Prototype"
+			],
+			[
+				"setup",
+				"setup"
+			],
+			[
+				"set",
+				"setupFunction"
+			],
+			[
+				"index",
+				"indexes"
+			],
+			[
+				"ha",
+				"hash"
+			],
+			[
+				"call",
+				"callback"
+			],
+			[
+				"cl",
+				"clientY"
+			],
+			[
+				"mouse",
+				"mouseups"
+			],
+			[
+				"mo",
+				"mousemoves"
+			],
+			[
+				"mous",
+				"mouseups"
+			],
+			[
+				"lis",
+				"listener"
+			],
+			[
+				"mou",
+				"mouseup"
+			],
+			[
+				"unl",
+				"unlock"
+			],
+			[
+				"sync",
+				"syncLastValue"
+			],
+			[
+				"reduce",
+				"reduceError"
+			],
+			[
+				"take",
+				"takenError"
+			],
+			[
+				"red",
+				"reduced"
+			],
+			[
+				"re",
+				"reduced"
+			],
+			[
+				"arr",
+				"arrProp"
+			],
+			[
+				"Pro",
+				"property"
+			],
+			[
+				"mapp",
+				"mapped"
+			],
+			[
+				"tr",
+				"trigger"
+			],
+			[
+				"b",
+				"binding"
+			],
+			[
+				"emit",
+				"emitter"
+			],
+			[
+				"obj",
+				"object"
+			],
+			[
+				"ex",
+				"extend"
+			],
+			[
+				"exi",
+				"exist"
+			],
+			[
+				"log",
+				"logger"
+			],
+			[
+				"han",
+				"handlers"
+			],
+			[
+				"war",
+				"Warden"
+			],
+			[
+				"proto",
+				"prototype"
+			],
+			[
+				"time",
+				"timeStamp"
+			],
+			[
+				"ro",
+				"routeTo"
+			],
+			[
+				"c",
+				"config"
+			],
+			[
+				"get",
+				"getUrlFromUrl"
+			],
+			[
+				"rout",
+				"route"
+			],
+			[
+				"bus",
+				"busExecuted"
+			],
+			[
+				"proc",
+				"process"
+			],
+			[
+				"wa",
+				"Warden"
+			],
+			[
+				"b-b",
+				"b-button--medium_content"
+			],
+			[
+				"js-c",
+				"js-close-popup"
+			],
+			[
+				"his",
+				"history"
+			],
+			[
+				"str",
+				"strict"
+			],
+			[
+				"make",
+				"makeStream"
+			],
+			[
+				"ev",
+				"event"
+			],
+			[
+				"emi",
+				"emited"
+			],
+			[
+				"is",
+				"isConstructor"
+			],
+			[
+				"fa",
+				"fadeOut"
+			],
+			[
+				"cle",
+				"clear"
+			],
+			[
+				"tim",
+				"timer"
+			],
+			[
+				"clea",
+				"clearTimeout"
+			],
+			[
+				"res",
+				"resolver"
+			],
+			[
+				"ar",
+				"arguments"
+			],
+			[
+				"no",
+				"nowrap"
+			],
+			[
+				"i",
+				"inline-block"
+			],
+			[
+				"Tra",
+				"transferrd"
+			],
+			[
+				"rou",
+				"routes"
+			],
+			[
+				"requ",
+				"requests"
+			],
+			[
+				"type",
+				"typeof"
+			],
+			[
+				"clas",
+				"classMethod"
+			],
+			[
+				"max",
+				"maxlength"
+			],
+			[
+				"btn",
+				"btn2Clicks"
+			],
+			[
+				"trans",
+				"Transmitting"
+			],
+			[
+				"open",
+				"company_phone_open_hours"
+			],
+			[
+				"comn",
+				"company_users_department"
+			],
+			[
+				"com",
+				"company_phone_open_hours"
+			],
+			[
+				"fie",
+				"field"
+			],
+			[
+				"orde",
+				"orderId"
+			],
+			[
+				"pas",
+				"password"
+			],
+			[
+				"val",
+				"values"
+			],
+			[
+				"zip",
+				"zip_validators"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "js/main.js",
+			"settings":
+			{
+				"buffer_size": 5042,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/utils.js",
+			"settings":
+			{
+				"buffer_size": 1629,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 31500,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/swarm.js",
+			"settings":
+			{
+				"buffer_size": 397,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 390.0,
+		"selected_items":
+		[
+			[
+				"git co",
+				"Git: Commit"
+			],
+			[
+				"git ad",
+				"Git: Add..."
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"Mark",
+				"Preferences: MarkdownEditing Settings – User"
+			],
+			[
+				"git dif",
+				"Git: Diff Tool All"
+			],
+			[
+				"Pac",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/dat/Templater/.gitignore",
+		"/home/dat/Templater/public/index.html",
+		"/home/dat/Pudra/public/skins/pudra/customer/static/js/apps/pudra/modules.js",
+		"/home/dat/Desktop/pudra.ru.har",
+		"/home/dat/Pudra/public/skins/pudra/customer/static/js/marrow.js",
+		"/home/dat/Pudra/package.json",
+		"/home/dat/Pudra/Gruntfile.js",
+		"/home/dat/Pudra/public/skins/pudra/customer/static/js/loader.js",
+		"/home/dat/Pudra/public/skins/pudra/customer/common_templates/scripts.tpl",
+		"/home/dat/Pudra/public/skins/pudra/layouts.xml",
+		"/home/dat/Pudra/public/skins/pudra/manifest.ini",
+		"/home/dat/Pudra/public/skins/index.php",
+		"/home/dat/Pudra/public/lib/js/jquery/jquery.min.js",
+		"/home/dat/Pudra/public/adminkA.php",
+		"/home/dat/Pudra/public/index.php",
+		"/home/dat/Pudra/public/skins/pudra/customer/static/js/apps/pudra/pudra.js",
+		"/home/dat/Pudra/public/skins/pudra/customer/index.tpl",
+		"/home/dat/Dist/tor-browser_en-US/mykey.asc",
+		"/home/dat/Documents/my.asc",
+		"/home/dat/Dist/tor-browser_en-US/start-tor-browser",
+		"/home/dat/Pudra/public/skins/pudra/customer/static/html/sandbox.html",
+		"/home/dat/.ssh/config",
+		"/home/dat/Pudra/public/skins/pudra/customer/addons/twigmo/js/templates/customer.js",
+		"/home/dat/Desktop/Pudra/[MERCHANT]MerchantPudra-Pay-Default-Default (1).template",
+		"/home/dat/Desktop/Pudra/[MERCHANT]MerchantPudra-Pay-Default-Default.template",
+		"/home/dat/[MERCHANT]MerchantPudra-Pay-Default-Default (1).template",
+		"/home/dat/Desktop/Pudra/Pudra/style.css",
+		"/home/dat/Desktop/Pudra/[MERCHANT]MerchantPudra-Return-Default-Default.template",
+		"/home/dat/Desktop/Pudra/[MERCHANT]MerchantPudra-Error-Default-Default.template",
+		"/home/dat/Pudra/public/skins/pudra/admin/addons/pudra_crawler/views/competitors_statistics/index.tpl",
+		"/home/dat/Desktop/jquery.sticky.js",
+		"/home/dat/Desktop/pudra_projects_sublime/COMMIT_EDITMSG.COMMIT_EDITMSG",
+		"/home/dat/.config/sublime-text-2/Packages/User/Markdown.sublime-settings",
+		"/home/dat/public/revision.txt",
+		"/home/dat/ribbon_bestsellers.html",
+		"/home/dat/Documents/email.html",
+		"/home/dat/Pudra/public/skins/pudra/customer/static/js/apps/pudra/modules/last_buyers.js",
+		"/home/dat/Documents/Warden.js/examples/controls/main.css",
+		"/home/dat/Documents/Warden.js/examples/databus/script.js",
+		"/home/dat/Documents/Warden.js/examples/controls/script.js",
+		"/home/dat/Documents/Warden.js/examples/busmap/index.html",
+		"/home/dat/Documents/Warden.js/examples/router/views/users/userpage.tpl",
+		"/home/dat/Documents/Warden.js/examples/router/views/index.tpl",
+		"/home/dat/Documents/Warden.js/examples/router/index.html",
+		"/home/dat/Documents/Warden.js/examples/router/style.css",
+		"/home/dat/Documents/Warden.js/src/modules/Watcher.js",
+		"/home/dat/Documents/Warden.js/examples/router/script.js",
+		"/home/dat/Documents/Warden.js/examples/router/controllers/users/john.json",
+		"/home/dat/Documents/Warden.js/examples/router/views/static/404.tpl",
+		"/home/dat/Documents/Warden.js/examples/databus/index.html",
+		"/home/dat/Desktop/getresponse.html",
+		"/home/dat/Documents/Warden.js/examples/databus/style.css",
+		"/home/dat/Documents/Warden.js/docs/README.Rus.md",
+		"/home/dat/Documents/Warden.js/package.json",
+		"/home/dat/Documents/Warden.js/examples/sync/index.html",
+		"/home/dat/Documents/Warden.js/README.md",
+		"/home/dat/Pudra/public/skins/pudra/mail/product/components/back_in_stock/products_table.tpl",
+		"/home/dat/Pudra/public/skins/pudra/mail/orders/track.tpl",
+		"/home/dat/Pudra/public/skins/pudra/mail/shipments/shipment_products.tpl",
+		"/home/dat/Pudra/public/skins/pudra/customer/common_templates/popupbox.tpl",
+		"/home/dat/Pudra/public/skins/pudra/customer/views/categories/catalog.tpl",
+		"/home/dat/Pudra/public/skins/pudra/customer/views/products/components/quick_view_link.tpl",
+		"/home/dat/Pudra/public/skins/pudra/customer/views/products/components/sorting.tpl",
+		"/home/dat/Pudra/public/skins/pudra/customer/views/products/components/products_qty_discounts.tpl",
+		"/home/dat/Pudra/public/skins/pudra/customer/views/products/components/products_qty.tpl",
+		"/home/dat/Pudra/public/skins/pudra/customer/views/products/components/product_files.tpl",
+		"/home/dat/Pudra/public/skins/pudra/customer/views/products/components/product_features.tpl",
+		"/home/dat/Pudra/public/skins/pudra/customer/views/products/components/one_product.tpl",
+		"/home/dat/Pudra/public/skins/pudra/customer/views/checkout/components/payments/payments_list.tpl",
+		"/home/dat/Pudra/public/skins/pudra/customer/views/checkout/components/payments/payment_simple.tpl",
+		"/home/dat/Pudra/public/skins/pudra/customer/views/checkout/components/payments/payment_methods.tpl",
+		"/home/dat/Pudra/public/skins/pudra/customer/views/checkout/components/terms_and_conditions.tpl",
+		"/home/dat/Pudra/public/skins/pudra/customer/views/checkout/components/shipping_rates.tpl",
+		"/home/dat/Pudra/public/skins/pudra/customer/views/checkout/components/shipping_estimation.tpl",
+		"/home/dat/Pudra/public/skins/pudra/customer/views/checkout/components/promotion_coupon.tpl",
+		"/home/dat/Pudra/public/skins/pudra/customer/views/checkout/components/progressbar.tpl",
+		"/home/dat/Pudra/public/skins/pudra/customer/views/checkout/components/customer_notes.tpl",
+		"/home/dat/Pudra/public/skins/pudra/customer/views/checkout/components/checkout_totals_info.tpl",
+		"/home/dat/Pudra/public/skins/pudra/customer/views/checkout/components/checkout_totals.tpl",
+		"/home/dat/Pudra/public/skins/pudra/customer/views/checkout/components/checkout_steps.tpl",
+		"/home/dat/Pudra/public/skins/pudra/customer/views/checkout/components/checkout_login.tpl",
+		"/home/dat/Pudra/public/skins/pudra/customer/views/checkout/components/cart_items.tpl",
+		"/home/dat/Pudra/public/skins/pudra/customer/views/checkout/components/cart_content.tpl",
+		"/home/dat/Pudra/public/skins/pudra/customer/views/checkout/components/applied_promotions.tpl",
+		"/home/dat/Pudra/public/skins/pudra/customer/addons/twigmo/js/extensions/engines/cs-cart/common.js",
+		"/home/dat/Pudra/public/skins/pudra/customer/addons/twigmo/js/extensions/customs.js",
+		"/home/dat/Documents/Warden.js/src/modules/Sampler.js",
+		"/home/dat/Documents/Warden.js/src/plugins/WWS.js",
+		"/home/dat/Pudra/public/skins/pudra/mail/product/components/left_products/products_table.tpl",
+		"/home/dat/Documents/Warden.js/examples/ins/index.html",
+		"/home/dat/Documents/Warden.js/src/warden.js",
+		"/home/dat/Documents/Warden.js/examples/socket.io/app.js",
+		"/home/dat/Documents/Warden.js/examples/socket.io/example.js",
+		"/home/dat/Documents/Warden.js/examples/socket.io/index.html",
+		"/home/dat/Pudra/public/skins/pudra/mail/product/left_products_notification.tpl",
+		"/home/dat/Pudra/public/skins/pudra/mail/product/back_in_stock_notification.tpl",
+		"/home/dat/Pudra/public/skins/pudra/mail/product/components/expired_ordered_products/product_info.tpl",
+		"/home/dat/Pudra/public/skins/pudra/mail/product/left_products_notification_subj.tpl",
+		"/home/dat/Documents/Warden.js/dist/warden.js",
+		"/home/dat/Documents/Warden.js/examples/jquery/game.js",
+		"/home/dat/Documents/Warden.js/dist/warden.min.js",
+		"/home/dat/Documents/Warden.js/src/modules/get_response_mail_markup.txt",
+		"/home/dat/Documents/Warden.js/test/specs/extendSpec.js",
+		"/home/dat/Pudra/public/addons/twigmo/func.php",
+		"/home/dat/Pudra/public/skins/pudra/customer/addons/pudra_bloggers/views/bloggerawards/index.tpl",
+		"/home/dat/Pudra/public/skins/pudra/customer/addons/pudra_bloggers/views/bloggerawards/bloggers.tpl",
+		"/home/dat/Documents/Warden.js/src/modules/Streams.js",
+		"/home/dat/Pudra/public/skins/pudra/customer/addons/twigmo/mobile_index.tpl",
+		"/home/dat/Pudra/public/skins/pudra/customer/addons/twigmo/js/extensions/engines/cs-cart/customer.js",
+		"/home/dat/Pudra/public/skins/pudra/customer/addons/twigmo/js/vendor.js",
+		"/home/dat/Pudra/public/skins/pudra/customer/addons/twigmo/js/theme_editor.js",
+		"/home/dat/Pudra/public/skins/pudra/customer/addons/twigmo/js/launcher.js",
+		"/home/dat/Pudra/public/skins/pudra/customer/addons/twigmo/js/templates/common.js",
+		"/home/dat/Pudra/public/skins/pudra/customer/static/styles/scss/blocks/_b-card.scss",
+		"/home/dat/Pudra/public/skins/pudra/customer/static/js/marrow.min.js",
+		"/home/dat/Documents/ward.js/Warden.js/src/plugins/getStreamOf.js",
+		"/home/dat/Pudra/public/skins/pudra/customer/static/js/apps/pudra/modules/location_suggest.js",
+		"/home/dat/Pudra/public/skins/pudra/customer/views/products/components/quick_view_template.tpl",
+		"/home/dat/Pudra/public/skins/pudra/customer/views/products/view.tpl",
+		"/home/dat/Pudra/public/skins/pudra/customer/views/products/components/product_options.tpl",
+		"/home/dat/Pudra/public/skins/pudra/customer/addons/twigmo/js/core/common.js",
+		"/home/dat/Documents/Warden.js/src/plugins/trigger.js",
+		"/home/dat/Documents/ward.js/Streams.js",
+		"/home/dat/Desktop/chrep.sh",
+		"/home/dat/DynamicBlock.js",
+		"/home/dat/BlockFactory.js",
+		"/home/dat/Pudra/public/skins/pudra/customer/addons/twigmo/js/templates/engines/customer/cs-cart.js",
+		"/home/dat/Pudra/public/js/core.js"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"id=\"save\"",
+			"defaults",
+			"conjunctions['default']",
+			"interpolate",
+			"startup_banner",
+			"{{",
+			"result_ids",
+			"App.global.$",
+			"afterInit",
+			"App",
+			"App.",
+			"Observa",
+			"loadDep",
+			"yepnope.js",
+			"settings.lang",
+			"debugger",
+			"cart_totals",
+			"fields[0]",
+			"cart-total",
+			"SelectCardType",
+			"initSchemas",
+			"wrap",
+			"$(\"",
+			"resizeInput",
+			"product.cannotBeModified",
+			"cart-qty",
+			"twg-qty-table",
+			"applyCoupon()",
+			"fieldForm",
+			"Подаро",
+			"пн-пт",
+			"twg.cart.isOrderAllowed()",
+			"twg.cart.isOrderAllowed() && !twg.ng.controllers.cart.hideCheckoutButton",
+			"debugger",
+			"setShippingCost",
+			"coupon",
+			"cart_coupon",
+			"setAddress",
+			"twg.func.slog",
+			"twg.func.slog(data);",
+			"console.log",
+			"debug",
+			"setAddress",
+			"addressForm",
+			"cart",
+			"isChain",
+			"twg.func",
+			"twg.cart.data.totals.total",
+			"ng-bind=\"fields[0].value|pric",
+			"Адрес",
+			"savePayment",
+			"getGallery",
+			"debugger",
+			"onSetSor",
+			"setSearchSorting",
+			"initSubscriptions",
+			"searchPage",
+			"brand",
+			"search = ",
+			"unsub",
+			"subscribe",
+			"unsubs",
+			"onSetSorting",
+			"setSearchSorting",
+			"brand = ",
+			"search = ",
+			"brand ",
+			"search",
+			"setSortings",
+			"brands= {",
+			"list",
+			"brand = {",
+			"getCurrentImageURL",
+			"twg-slider",
+			"debugger",
+			"product",
+			"brand",
+			"search",
+			"ng-src",
+			"b-icon",
+			"currency",
+			"layout != 'grid' || (layout == 'grid' && !product.icon)",
+			"getPopu",
+			"images/",
+			"brands",
+			"brands = ",
+			"produceWith",
+			"exists",
+			"exist",
+			"sH",
+			"Clone",
+			".get",
+			"fires.get",
+			"parent",
+			"wait",
+			"waitFor",
+			".filter",
+			"$$bus",
+			"Для оформления заказа не хватает",
+			"continue_shopping",
+			"popup-con",
+			"b-card-price",
+			"js-price",
+			"return $scope.$on('$routeChangeSuccess",
+			"twg.func.routeTo('home')",
+			"schema",
+			"routeTo",
+			"index",
+			"categories",
+			"home",
+			"cachedActions",
+			"ome",
+			"/*home",
+			"debugger",
+			"home",
+			"core/customer/index.html",
+			"/core/customer/index.html",
+			"AppCtrl",
+			"initPhoneMask",
+			"swap",
+			"subtotal",
+			"сумма",
+			"popups",
+			"isArray",
+			"is.exist",
+			"is.exists",
+			"exist",
+			"exists"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"App.defaults",
+			"defaults",
+			"Utils.interpolate",
+			"resolveWith",
+			"set",
+			"$$parent",
+			"is.exist",
+			"gH",
+			"gC",
+			"sH",
+			"gH",
+			"gC",
+			"sections[",
+			"subheading"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "js/main.js",
+					"settings":
+					{
+						"buffer_size": 5042,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2938,
+								2938
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1170.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "js/utils.js",
+					"settings":
+					{
+						"buffer_size": 1629,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 31500,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 915.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "js/swarm.js",
+					"settings":
+					{
+						"buffer_size": 397,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								364,
+								364
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 29.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.968847352025,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 185.0,
+	"status_bar_visible": true
+}
