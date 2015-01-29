@@ -40,7 +40,7 @@ function getData(item){
 			number: 9,
 			alt: 'Для двоих'
 			name: 'Для Двоих'
-		}
+		},
 		premiers0 : {
 			width: 224,
 			height: 36,
