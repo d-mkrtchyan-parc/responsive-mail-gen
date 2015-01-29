@@ -34,6 +34,13 @@ function getData(item){
 			name: 'Новинки недели'
 
 		},
+		coiple : {
+			height: 35,
+			width: 160,
+			number: 9,
+			alt: 'Для двоих'
+			name: 'Для Двоих'
+		}
 		premiers0 : {
 			width: 224,
 			height: 36,
