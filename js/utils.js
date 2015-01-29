@@ -34,7 +34,7 @@ function getData(item){
 			name: 'Новинки недели'
 
 		},
-		coiple : {
+		couple : {
 			height: 35,
 			width: 160,
 			number: 9,
