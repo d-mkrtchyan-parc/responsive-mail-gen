@@ -38,7 +38,7 @@ function getData(item){
 			height: 35,
 			width: 160,
 			number: 9,
-			alt: 'Для двоих',
+			alt: 'Для двоих' ,
 			name: 'Для Двоих'
 		},
 		premiers0 : {
