@@ -14,7 +14,7 @@ function getData(item){
 	return ({
 		actions0 : {
 			width : 192,
-			height : 35,
+			height : 36,
 			number : 5,
 			alt : 'Акция недели',
 			name : 'Акция недели'
