@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"op",
+				"option	Tag"
+			],
+			[
 				"for",
 				"form"
 			],
@@ -510,10 +514,6 @@
 			[
 				"val",
 				"values"
-			],
-			[
-				"zip",
-				"zip_validators"
 			]
 		]
 	},
@@ -531,7 +531,7 @@
 			"file": "js/utils.js",
 			"settings":
 			{
-				"buffer_size": 1629,
+				"buffer_size": 1734,
 				"line_ending": "Unix"
 			}
 		},
@@ -539,7 +539,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 31500,
+				"buffer_size": 31727,
 				"line_ending": "Unix"
 			}
 		},
@@ -547,7 +547,7 @@
 			"file": "js/swarm.js",
 			"settings":
 			{
-				"buffer_size": 397,
+				"buffer_size": 546,
 				"line_ending": "Unix"
 			}
 		}
@@ -904,7 +904,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -919,8 +919,8 @@
 						"selection":
 						[
 							[
-								2938,
-								2938
+								4495,
+								4495
 							]
 						],
 						"settings":
@@ -929,7 +929,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1170.0,
+						"translation.y": 2037.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -939,15 +939,15 @@
 					"file": "js/utils.js",
 					"settings":
 					{
-						"buffer_size": 1629,
+						"buffer_size": 1734,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								275,
+								275
 							]
 						],
 						"settings":
@@ -956,7 +956,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 117.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -966,15 +966,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 31500,
+						"buffer_size": 31727,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								10051,
+								10051
 							]
 						],
 						"settings":
@@ -983,7 +983,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 915.0,
+						"translation.y": 2620.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -993,15 +993,15 @@
 					"file": "js/swarm.js",
 					"settings":
 					{
-						"buffer_size": 397,
+						"buffer_size": 546,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								364,
-								364
+								248,
+								248
 							]
 						],
 						"settings":
@@ -1051,7 +1051,7 @@
 		"cols":
 		[
 			0.0,
-			0.968847352025,
+			0.97034400949,
 			1.0
 		],
 		"rows":
