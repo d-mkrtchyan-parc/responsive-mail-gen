@@ -34,6 +34,13 @@ function getData(item){
 			name: 'Новинки недели'
 
 		},
+		forhim : {
+			height: 35,
+			width: 176,
+			number: 10,
+			alt: 'Подари ему' ,
+			name: 'Подари ему'
+		},
 		couple : {
 			height: 35,
 			width: 160,
